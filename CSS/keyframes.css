@@ -1,0 +1,23 @@
+@keyframes animacion-Paisajes{
+	0% {transform: rotate(0deg)}
+	50% {transform: rotate(10deg)}
+	100% {transform: rotate(0deg)}
+}
+
+@keyframes animacion-Retratos{
+	0% {transform: translate(0px,0px)}
+	50% {transform: translate(20px,-5px)}
+	100% {transform: translate(0px,0px)}
+}
+
+#imagen-secundaria-Paisajes:hover{
+	animation-name: animacion-Paisajes;
+	animation-duration: 1s;
+	box-shadow: 2px 2px #82c3a6;
+}
+
+#imagen-secundaria-Retratos:hover{
+	animation-name: animacion-Retratos;
+	animation-duration: 1s;
+	box-shadow: 2px 2px #82c3a6;
+}
