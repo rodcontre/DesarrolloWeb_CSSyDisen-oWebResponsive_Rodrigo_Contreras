@@ -1,3 +1,9 @@
+/*
+-----------------------------------
+--------- KeyFrames Index ---------
+-----------------------------------
+*/
+
 @keyframes animacion-Paisajes{
 	0% {transform: rotate(0deg)}
 	50% {transform: rotate(10deg)}
@@ -10,14 +16,31 @@
 	100% {transform: translate(0px,0px)}
 }
 
-#imagen-secundaria-Paisajes:hover{
+#imagen-secundaria-paisajes img:hover{
 	animation-name: animacion-Paisajes;
 	animation-duration: 1s;
 	box-shadow: 2px 2px #82c3a6;
 }
 
-#imagen-secundaria-Retratos:hover{
+#imagen-secundaria-retratos img:hover{
 	animation-name: animacion-Retratos;
 	animation-duration: 1s;
 	box-shadow: 2px 2px #82c3a6;
+}
+
+/*
+-----------------------------------
+------- KeyFrames Carga -----------
+-----------------------------------
+*/
+
+@keyframes Carga-Contenido{
+	0% {margin-top: 150%}
+	60% {margin-top: -5%}
+	100% {margin-top: 0%}
+}
+
+#contenido{
+	animation-name: Carga-Contenido;
+	animation-duration: 1s;
 }
