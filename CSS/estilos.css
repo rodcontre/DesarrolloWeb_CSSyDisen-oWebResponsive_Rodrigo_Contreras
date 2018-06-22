@@ -19,7 +19,6 @@ img{box-shadow: 2px 2px #02010a}
 
 #cabecera ul{
 	text-align: center;
-	padding-left: 0px;
 }
 
 #cabecera li, a{
@@ -51,8 +50,11 @@ img{box-shadow: 2px 2px #02010a}
 #imagen-secundaria{
 	background-color: #d5c75f;
 	width: 100%;
-	margin: auto;
 }
+
+/*-----------------*/
+/*  Estilos Footer */
+/*-----------------*/
 
 #ID-footer{
 	width: 100%;
@@ -74,6 +76,14 @@ img{box-shadow: 2px 2px #02010a}
 	box-shadow: none;
 }
 
+#ID-footer p{text-align: left}
+
+#ID-footer li{
+	text-decoration: none;
+	list-style: none;
+	text-align: left;
+}
+
 #imagen-galeria{
 	background-color: #d5c75f;
 	padding: 10px;
@@ -86,6 +96,10 @@ img{box-shadow: 2px 2px #02010a}
 	width: 30%;
 }
 
+/*------------------------*/
+/*  Estilos Pie de imagen */
+/*------------------------*/
+
 .FigCaptionClass{
 	text-align: center;
 	width: 100%;
@@ -94,6 +108,9 @@ img{box-shadow: 2px 2px #02010a}
 	padding-bottom: 5px;
 }
 
+/*--------------------------------*/
+/*  Filtros - Paysajes + Retratos */
+/*--------------------------------*/
 .BlurClass{filter: blur(10px)}
 .GrayScaleClass{filter: grayscale(100%)}
 .SepiaClass{filter: sepia(90%)}

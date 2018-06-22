@@ -5,6 +5,9 @@
 */
 
 @media screen and (min-width: 900px){
+	/*----------------------------------*/
+	/*  Desktop Cebecera y Contenido    */
+	/*----------------------------------*/
 	#contenido, 
 	#contenido-paisajes, 
 	#contenido-retratos{
@@ -24,50 +27,55 @@
 
 	#cabecera ul{
 		width: 50%;
-		padding-top: 15px;
+		padding: 15px 0 0 100px;
 	}
 
+	/*----------------------------------*/
+	/*  Desktop INDEX/Imagen-Secundaria */
+	/*----------------------------------*/
 	#imagen-secundaria{
 		display: inline-flex;
-		margin: auto;
 	}
 
-	#imagen-secundaria-paisajes,
-	#imagen-secundaria-retratos{
+	#imagen-paisajes,
+	#imagen-retratos{
 		display: block;
 		margin: auto;
 		width: 49%
 	}
 
-	#imagen-secundaria-paisajes img,
-	#imagen-secundaria-retratos img{
+	#imagen-paisajes img,
+	#imagen-retratos img{
 		width: 100%;
 		height: 100%;
 		margin: 1% auto;
 		display: inline-block;
 	}
 
+	/*-----------------*/
+	/*  Desktop Footer */
+	/*-----------------*/
 	#ID-footer{display: flex}
 
 	.footer-col{
 		text-align:left;
 		width: 25%;
 		padding: 0 2%;
+		margin-bottom: 2%;
 	}
 
-	#ID-footer li{
-		text-decoration: none;
-		list-style: none;
-		text-align: left;
+	#ID-footer h1{
+		margin: 4% 0 4% 0;
 	}
-
-	#ID-footer p{text-align: left}
 }
 
 @media screen and (max-width: 900px){
+	/*----------------------------------*/
+	/*    Móvil Cebecera y Contenido    */
+	/*----------------------------------*/
 	#contenido, 
 	#contenido-paisajes, 
-	#contenido-retratos{
+	#contenido-retratos {
 		width: 100%;
 		margin: auto;
 	}
@@ -90,22 +98,39 @@
 		padding-bottom: 5px;
 	}
 
-	.imagen-secundaria{
-		margin: auto;
-		padding: 0.5% 0 0.5% 0;
-	}
-
-	.imagen-secundaria img{
-		width: 90%;
-		margin: 5% auto;
+	/*----------------------------------*/
+	/*   Movil INDEX/Imagen-Secundaria  */
+	/*----------------------------------*/
+	#imagen-secundaria{
 		display: block;
+		width: 100%;
+		margin: auto;
 	}
 
+	#imagen-paisajes,
+	#imagen-retratos {
+		width: 100%;
+		margin: auto;
+	}
+
+	#imagen-paisajes img,
+	#imagen-retratos img {
+		width: 95%;
+		margin: 2% 2.5% 0 2.5%;
+	}
+
+	/*------------------------------------*/
+	/*  Móvil Galería Paisajes y Retratos */
+	/*------------------------------------*/
 	#imagen-galeria img{
 		width: 90%;
 		margin: 5% auto;
 		display: block;
 	}
+
+	/*---------------*/
+	/*  Móvil Footer */
+	/*---------------*/
 
 	#ID-footer h1{
 		margin: 0;
@@ -115,15 +140,5 @@
 		text-align:left;
 		display: block;
 		padding: 4% 7% 4% 7%;
-	}
-
-	#ID-footer li{
-		text-decoration: none;
-		list-style: none;
-		text-align: left;
-	}
-
-	#ID-footer p{
-		text-align: left;
 	}
 }

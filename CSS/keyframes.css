@@ -16,13 +16,13 @@
 	100% {transform: translate(0px,0px)}
 }
 
-#imagen-secundaria-paisajes img:hover{
+#imagen-paisajes img:hover{
 	animation-name: animacion-Paisajes;
 	animation-duration: 1s;
 	box-shadow: 2px 2px #82c3a6;
 }
 
-#imagen-secundaria-retratos img:hover{
+#imagen-retratos img:hover{
 	animation-name: animacion-Retratos;
 	animation-duration: 1s;
 	box-shadow: 2px 2px #82c3a6;
