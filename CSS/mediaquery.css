@@ -35,13 +35,15 @@
 	/*----------------------------------*/
 	#imagen-secundaria{
 		display: inline-flex;
+		margin: auto;
+		padding: 2% 0 2% 0;
 	}
 
 	#imagen-paisajes,
 	#imagen-retratos{
 		display: block;
 		margin: auto;
-		width: 49%
+		width: 45%;
 	}
 
 	#imagen-paisajes img,
@@ -61,7 +63,7 @@
 		text-align:left;
 		width: 25%;
 		padding: 0 2%;
-		margin-bottom: 2%;
+		margin: 4% 0 4% 0;
 	}
 
 	#ID-footer h1{
